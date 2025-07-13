@@ -11,18 +11,16 @@ counter.textContent = count;
 
 
 tapButton.addEventListener('click', function(){
-    
+    savedScore++;
     count++;
     counter.textContent = count;
+    score.textContent = savedScore;
+    
 })
 
 resetButton.addEventListener('click', function(){
 
-    savedScore+=count;
     localStorage.setItem('myNum', savedScore);
-
-    score.textContent = savedScore;
-
     count = 0;
     counter.textContent = count
 })
