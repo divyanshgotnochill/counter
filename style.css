@@ -5,7 +5,7 @@
 
 .count-wrap{
     /* background-color: red; */
-    height: 500px;
+    height: auto;
     width: auto;
     position: relative;
     display: flex;
@@ -14,6 +14,8 @@
 
 .counter{
     margin-top: 150px;
+    height: auto;
+    width: auto;
     font-size: 150px;
     /* background-color: yellow; */
     display: flex;
@@ -86,6 +88,10 @@
     .count-wrap{
         /* background-color: blue; */
         height: 600px;
+    }
+
+    .counter{
+        font-size: 70px;
     }
 
     .tapper{
