@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        .count-wrap{
+            /* background-color: red; */
+            height: 500px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .tapper{
+            bottom: 0;
+            height: 50px;
+            width: 150px;
+            left: 600px;
+            position: absolute;
+        }
+
+        .reset{
+            position: absolute;
+            height: 50px;
+            width: 150px;
+            right: 600px;
+            bottom: 0;
+        }
+
+        .counter{
+            font-size: 150px;
+            /* background-color: yellow; */
+            height: 105px;
+            width: 65px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .score{
+            position: absolute;
+            /* background-color: red; */
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            left: 120px;
+            height: 40px;
+            width: auto;
+        }
+
+        .score-text{
+            display: flex;
+            align-items: center;
+            /* background-color: yellow; */
+            position: absolute;
+            left: 0;
+            font-size: 30px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="count-wrap">
+        <p class="score-text">SCORE : </p>
+        <p class="score">0</p>
+        <p class="counter">0</p>
+        <button class="tapper">TAP</button>
+        <button class="reset">RESET</button>
+    </div>
+    
+
+    <script src="count.js"></script>
+</body>
+</html>
