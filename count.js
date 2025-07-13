@@ -6,7 +6,7 @@ const score = document.querySelector('.score');
 let savedScore = parseInt(localStorage.getItem('myNum') || 0);
 score.textContent = savedScore;
 
-let count = 0;
+let count = 100;
 counter.textContent = count;
 
 

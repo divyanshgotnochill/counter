@@ -16,9 +16,8 @@
     margin-top: 150px;
     font-size: 150px;
     /* background-color: yellow; */
-    height: 105px;
-    width: 65px;
-    
+    display: flex;
+    height: 200px;
 }
 
 .tapper{
